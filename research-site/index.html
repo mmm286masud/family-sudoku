@@ -75,73 +75,21 @@
         Emoji are temporary placeholders for the
         final character artwork.
     </p>
+<section id="game-preview">
+    <h2>Family Sudoku Game Preview</h2>
+    <p>This preview uses my actual pixel-art family character sprites.</p>
 
-    <style>
-        #sudoku-preview {
-            display: grid;
-            grid-template-columns: repeat(9, 1fr);
-            width: 100%;
-            max-width: 450px;
-            aspect-ratio: 1;
-            border: 3px solid #333;
-            margin: 20px auto;
-        }
+    <img 
+        src="family-sudoku-preview.png" 
+        alt="Family Sudoku pixel-art preview"
+        style="max-width: 100%; height: auto; border: 2px solid #333; border-radius: 8px;"
+    >
 
-        #sudoku-preview .cell {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-right: 1px solid #aaa;
-            border-bottom: 1px solid #aaa;
-            font-size: clamp(14px, 3vw, 28px);
-            background: #fff;
-        }
+    <p><strong>Status:</strong> Concept preview only. This is not yet the final playable game.</p>
+</section>
 
-        #sudoku-preview .cell:nth-child(9n+3),
-        #sudoku-preview .cell:nth-child(9n+6) {
-            border-right: 3px solid #333;
-        }
 
-        #sudoku-preview .cell.filled {
-            background: #eef5f0;
-        }
-    </style>
-
-    <script>
-        const family = [
-            "👴", "👵", "👨", "👩", "🧑",
-            "👧", "👦", "👶", "🐶"
-        ];
-
-        const preview = document.getElementById(
-            "sudoku-preview"
-        );
-
-        for (let row = 0; row < 9; row++) {
-            for (let col = 0; col < 9; col++) {
-                const cell = document.createElement("div");
-                const index =
-                    (row * 3 + Math.floor(row / 3) + col) % 9;
-
-                // Show some preset characters.
-                const filled = (row + col) % 3 !== 0;
-
-                cell.className = "cell";
-
-                if (filled) {
-                    cell.textContent = family[index];
-                    cell.classList.add("filled");
-                }
-
-                if (row === 2 || row === 5) {
-                    cell.style.borderBottom =
-                        "3px solid #333";
-                }
-
-                preview.appendChild(cell);
-            }
-        }
-    </script>
+  
 </section>
 
         <section id="research">
