@@ -66,3 +66,27 @@ Begin with a fixed Sudoku puzzle and character-selection interface. Implement se
 
 ## Current Status
 Planning only. Features, tests and creative experiment are not yet implemented or executed.
+
+## Peer Review Feedback
+
+### Issue #1: Add Family Sudoku Game Preview
+
+A classmate suggested adding a visual preview of the
+Sudoku board to help readers understand how family
+characters replace traditional numbers.
+
+**Decision:** Accepted.
+
+**Reason:** A visual example would make the game
+concept easier to understand.
+
+**Planned action:** Add a 9x9 Sudoku board mockup
+to the research website.
+
+**Verification:** Planned. Check that the image
+displays correctly and ask the reviewer to retry.
+
+**GitHub Issue:**
+https://github.com/mmm286masud/family-sudoku/issues/1
+
+**Status:** Open — not yet implemented.
