@@ -31,3 +31,34 @@ Compare drag-and-drop character placement with click-to-select placement to dete
 
 ## Project Status
 Planning stage. Features and tests are planned, not yet implemented.
+
+## Project Documentation
+
+- [Project Plan](docs/plan.md)
+- [Technical Architecture](docs/architecture.md)
+- [Testing and Code Quality Plan](docs/testing.md)
+- [Creative Experiment](docs/experiment.md)
+
+## Research Website
+
+[Family Sudoku AI and Programming Research](https://mmm286masud.github.io/family-sudoku/)
+
+The research website documents technology comparisons,
+original sources, AI assistance, design decisions,
+and the planned creative experiment.
+
+## Peer Review
+
+[GitHub Issue #1 — Game Preview Feedback](https://github.com/mmm286masud/family-sudoku/issues/1)
+
+A classmate suggested adding a visual preview of
+Family Sudoku. The suggestion was implemented and
+the reviewer confirmed that it improved the website.
+
+**Issue status:** Resolved and closed.
+
+## Implementation Status
+
+The project is currently in the planning stage.
+The playable application and automated tests have
+not yet been implemented.
